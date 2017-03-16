@@ -1,0 +1,17 @@
+@keyframes material {
+    0% {
+        width: 3.27em;
+        height: 3.27em;
+    }
+    100% {
+        width: 327em;
+        height: 327em;
+    }
+}
+
+.fab:active,.fab:focus {
+    animation-name: material;
+    animation-duration: 3s;
+    -webkit-animation-name: material;
+    -webkit-animation-duration: 3s;
+}
