@@ -1,5 +1,5 @@
-# MD-FAB-CSS-animation-demo
-An easy demo of Material design FAB animation by pure CSS.(Testing&amp;Unfinished)
+# FAB CSS animation demo
+An easy demo of Material design FAB animation by pure CSS.
 
 # Notice
 The demo is **unfinished and testing** now.I will make it better in my spare time.
