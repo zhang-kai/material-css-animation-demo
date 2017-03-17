@@ -55,3 +55,24 @@ body {
     margin: 0.4em 0.8em;
     padding: 0;
 }
+
+p.text {
+    display: block;
+    word-wrap: break-word;
+    word-break: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span.introduction {
+    font-size: 1.5em;
+    color: #303F9F;
+    line-height: 1.6em;
+}
+
+em.info {
+    font-size: 1em;
+    float: right;
+}

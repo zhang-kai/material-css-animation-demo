@@ -2,16 +2,28 @@
     0% {
         width: 3.27em;
         height: 3.27em;
+        position: absolute;
+        bottom: -10em;
+        right: -10em;
     }
     100% {
+        positon: absolute;
+        bottom: -100em;
+        right: -100em;
         width: 327em;
         height: 327em;
     }
 }
 
-.fab:active,.fab:focus {
+.fab:active,
+.fab:focus {
     animation-name: material;
     animation-duration: 3s;
     -webkit-animation-name: material;
     -webkit-animation-duration: 3s;
+}
+
+.fab p:active,
+.fab p:focus {
+    font-color: rgba(255, 255, 255, 0.5);
 }
