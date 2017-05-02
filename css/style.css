@@ -66,6 +66,17 @@ body {
     border: none;
 }
 
+.cover {
+    margin: 0;
+    padding: 0;
+    z-index: 50;
+    border-radius: 50%;
+    width: 3.27em;
+    height: 3.27em;
+    background-color: #E91E63;
+    border: none;
+}
+
 .plus {
     position: absolute;
     top: 50%;
@@ -79,6 +90,15 @@ body {
     height: 1.4em;
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.plus:hover {
+    font-color: rgba(255, 255, 255, 0.5);
+}
+
+.cover:active,
+.cover:focus {
+    display: none;
 }
 
 .text {
