@@ -1,17 +1,21 @@
+@charset "UTF-8";
+
+/*Author:Kai Zhang(zhang-kai),License:MIT,Status:Beta*/
+
 @keyframes material {
     0% {
-        width: 3.27em;
-        height: 3.27em;
+        width: 3.27rem;
+        height: 3.27rem;
         position: absolute;
-        bottom: -10em;
-        right: -10em;
+        bottom: -10rem;
+        right: -10rem;
     }
     100% {
+        width: 327rem;
+        height: 327rem;
         positon: absolute;
-        bottom: -100em;
-        right: -100em;
-        width: 327em;
-        height: 327em;
+        bottom: -100rem;
+        right: -100rem;
     }
 }
 
