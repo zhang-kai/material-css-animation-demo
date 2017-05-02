@@ -110,7 +110,16 @@ body {
 }
 
 
-/*For some mobile device and browser*/
+/*For some mobile device and browser(test)*/
+
+@media (max-width:500px) {
+    .text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 1rem 2rem;
+        width: 70%;
+    }
+}
 
 @media (max-height:500px) {
     .text ul {
