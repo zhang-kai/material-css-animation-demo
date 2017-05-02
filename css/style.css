@@ -81,11 +81,6 @@ body {
     color: #FFFFFF;
 }
 
-.plus:active,
-.plus:focus {
-    display: none;
-}
-
 .text {
     display: block;
     word-wrap: break-word;

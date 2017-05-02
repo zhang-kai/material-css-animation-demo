@@ -25,9 +25,10 @@
     animation-duration: 3s;
     -webkit-animation-name: material;
     -webkit-animation-duration: 3s;
+    z-index: 15;
 }
 
-.fab p:active,
-.fab p:focus {
+.plus:active,
+.plus:focus {
     font-color: rgba(255, 255, 255, 0.5);
 }
