@@ -3,7 +3,7 @@
 - You can visit the [demo page](https://zhang-kai.github.io/FAB-CSS-Animation-Demo/demo.html).
 
 # Notice
-The project is **testing** now and it doesn't support IE.
+The demo is **testing** now.It doesn't support IE and other older browser.
 
 # License
 MIT (https://opensource.org/licenses/mit-license.php)
