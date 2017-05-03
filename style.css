@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/*Author:Kai Zhang(zhang-kai),License:MIT,Status:Beta*/
+
+
+/*Global style*/
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECEFF1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/*Components style*/
+
+.header {
+    color: #FFFFFF;
+    background-color: #3F51B5;
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    min-height: 4rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    z-index: 5;
+}
+
+.header a {
+    font-size: 1.3em;
+    position: absolute;
+    top: 1.1rem;
+    left: 2rem;
+    margin: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.fab {
+    border: none;
+    font-size: 1.4em;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: #E91E63;
+    border-radius: 50%;
+    width: 3.27em;
+    height: 3.27em;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    right: 1.5em;
+    bottom: 1.5em;
+    z-index: 8;
+}
+
+.fab:hover,
+.fab:active,
+.fab:focus {
+    background-color: #C2185B;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+.cover {
+    margin: 0;
+    padding: 0;
+    z-index: 50;
+    border-radius: 50%;
+    width: 3.27em;
+    height: 3.27em;
+    background-color: #E91E63;
+    border: none;
+}
+
+.plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4em;
+    padding: 0 0 0.2em 0;
+    z-index: 10;
+    margin: auto;
+    line-height: 1.4em;
+    height: 1.4em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.plus:hover {
+    font-color: rgba(255, 255, 255, 0.5);
+}
+
+.cover:active,
+.cover:focus {
+    display: none;
+}
+
+.text {
+    display: block;
+    word-wrap: break-word;
+    word-break: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #263238;
+    line-height: 4rem;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 2rem 4rem;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.text:hover,
+.text:focus {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+}
+
+
+/*For some mobile device and browser(test)*/
+
+@media (max-width:500px) {
+    .text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 1rem 2rem;
+        width: 70%;
+    }
+}
+
+@media (max-height:500px) {
+    .text ul {
+        display: none;
+    }
+}
