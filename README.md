@@ -1,6 +1,6 @@
 # FAB CSS Animation Demo
 - An easy demo of Material design FAB animation by pure CSS.
-- You can visit the [demo page](https://zhang-kai.github.io/FAB-CSS-Animation-Demo/demo.html).
+- You can visit the [demo page](https://zhang-kai.github.io/fab-css-animation-demo/demo.html) to view it.
 
 # Notice
 The demo is **testing** now.It doesn't support IE and other older browser.
