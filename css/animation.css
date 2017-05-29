@@ -14,7 +14,7 @@
     100% {
         width: 327rem;
         height: 327rem;
-        positon: absolute;
+        position: absolute;
         bottom: -100rem;
         right: -100rem;
     }
@@ -23,7 +23,9 @@
 .fab:active,
 .fab:focus {
     animation-name: material;
-    animation-duration: 3s;
     -webkit-animation-name: material;
+    -moz-animation-name: material;
+    animation-duration: 3s;
     -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
 }

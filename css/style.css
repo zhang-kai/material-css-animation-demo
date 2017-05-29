@@ -96,7 +96,7 @@ body {
 }
 
 .plus:hover {
-    font-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .cover:active,
