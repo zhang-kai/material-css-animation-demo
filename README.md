@@ -1,5 +1,5 @@
 # FAB CSS Animation Demo
-- An easy demo of Material design FAB animation by pure CSS.
+- An demo of Material design FAB animation by pure CSS.
 - You can visit the [demo page](https://zhang-kai.github.io/fab-css-animation-demo/demo.html) to view it.
 
 # Notice
