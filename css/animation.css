@@ -5,25 +5,15 @@
 @keyframes material {
     0% {
         opacity: 1;
+        background-color: #C2185B;
     }
-    1% {
-        opacity: 0;
-    }
-    2% {
-        opacity: 1;
-        width: 3.27rem;
-        height: 3.27rem;
-        position: absolute;
-        bottom: -10rem;
-        right: -10rem;
-        z-index: 50;
+    5% {
+        background-color: #E91E63;
+        box-shadow: 0 0 0 0 transparent;
     }
     100% {
-        width: 327rem;
-        height: 327rem;
-        position: absolute;
-        bottom: -100rem;
-        right: -100rem;
+        opacity: 1;
+        transform: scale(500, 500);
     }
 }
 
@@ -32,19 +22,19 @@
     animation-name: material;
     -webkit-animation-name: material;
     -moz-animation-name: material;
-    animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 @media (max-width:500px) {
     .fab:active,
     .fab:focus {
-        animation-duration: 1s;
-        -webkit-animation-duration: 1s;
-        -moz-animation-duration: 1s;
+        animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
     }
 }
