@@ -129,7 +129,7 @@ body {
 
 /*For some mobile device and browser(test)*/
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     body {
         position: fixed;
     }
@@ -144,7 +144,7 @@ body {
     }
 }
 
-@media (max-height:700px) {
+@media (max-height:500px) {
     .text ul {
         display: none;
     }
