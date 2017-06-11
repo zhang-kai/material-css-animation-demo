@@ -2,7 +2,68 @@
 
 /*Author:Kai Zhang(zhang-kai),License:MIT,Status:Beta*/
 
-@keyframes material {
+
+/*Animation 1*/
+
+@keyframes card {
+    0% {
+        opacity: 0;
+        top: 150%;
+    }
+    100% {
+        opacity: 1;
+        top: 50%;
+    }
+}
+
+.text {
+    animation-name: card;
+    -webkit-animation-name: card;
+    -moz-animation-name: card;
+    animation-duration: 0.35s;
+    -webkit-animation-duration: 0.35s;
+    -moz-animation-duration: 0.35s;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+    ;
+    -webkit-animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+    ;
+    -moz-animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+    ;
+}
+
+
+/*Animation 2*/
+
+@keyframes ripple {
+    0% {
+        width: 0.01rem;
+        height: 0.01rem;
+        opacity: 0.1;
+    }
+    100% {
+        width: 1000rem;
+        height: 1000rem;
+        opacity: 0;
+    }
+}
+
+.ripple:active,
+.ripple:focus {
+    animation-name: ripple;
+    -webkit-animation-name: ripple;
+    -moz-animation-name: ripple;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+
+/*Animation 3*/
+
+@keyframes fab-scale {
     0% {
         opacity: 1;
         background-color: #C2185B;
@@ -19,9 +80,9 @@
 
 .fab:active,
 .fab:focus {
-    animation-name: material;
-    -webkit-animation-name: material;
-    -moz-animation-name: material;
+    animation-name: fab-scale;
+    -webkit-animation-name: fab-scale;
+    -moz-animation-name: fab-scale;
     animation-duration: 2s;
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
@@ -30,7 +91,21 @@
     -moz-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
+
+/*For some mobile devices*/
+
 @media (max-width:500px) {
+    .text {
+        animation-duration: 0.225s;
+        -webkit-animation-duration: 0.225s;
+        -moz-animation-duration: 0.225s;
+    }
+    .ripple:active,
+    .ripple:focus {
+        animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+    }
     .fab:active,
     .fab:focus {
         animation-duration: 1.5s;

@@ -111,14 +111,15 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2rem;
+    font-size: 2em;
     color: #263238;
-    line-height: 4rem;
+    line-height: 2em;
     background-color: #FFFFFF;
     border-radius: 4px;
     padding: 2rem 4rem;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
     z-index: 1;
+    overflow: hidden;
 }
 
 .text:hover,
@@ -126,8 +127,23 @@ body {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
 }
 
+.ripple {
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    opacity: 0;
+    z-index: 10;
+    width: 200%;
+    height: 200%;
+}
 
-/*For some mobile device and browser(test)*/
+
+/*For some mobile devices*/
 
 @media (max-width:600px) {
     body {
