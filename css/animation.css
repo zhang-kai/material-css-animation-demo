@@ -93,15 +93,9 @@
 
 @media (max-width:500px) {
     .text {
-        animation-duration: 0.225s;
-        -webkit-animation-duration: 0.225s;
-        -moz-animation-duration: 0.225s;
-    }
-    .ripple:active,
-    .ripple:focus {
-        animation-duration: 2s;
-        -webkit-animation-duration: 2s;
-        -moz-animation-duration: 2s;
+        animation-duration: 0.4s;
+        -webkit-animation-duration: 0.4s;
+        -moz-animation-duration: 0.4s;
     }
     .fab:active,
     .fab:focus {
