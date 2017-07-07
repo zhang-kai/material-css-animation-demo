@@ -145,7 +145,7 @@ body {
 
 /*For some mobile devices*/
 
-@media (max-width:600px) {
+@media (max-width:500px) {
     body {
         position: fixed;
     }
@@ -154,13 +154,14 @@ body {
         line-height: 1.5rem;
         padding: 1rem 2rem;
         width: 80%;
+        top: 25%;
     }
     .plus {
         padding: 0;
     }
 }
 
-@media (max-height:500px) {
+@media (max-height:600px) {
     .text ul {
         display: none;
     }
