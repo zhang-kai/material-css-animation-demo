@@ -5,6 +5,17 @@
 
 /*Animation 1*/
 
+@-webkit-keyframes card {
+    0% {
+        opacity: 0;
+        top: 150%;
+    }
+    100% {
+        opacity: 1;
+        top: 50%;
+    }
+}
+
 @keyframes card {
     0% {
         opacity: 0;
@@ -30,6 +41,19 @@
 
 
 /*Animation 2*/
+
+@-webkit-keyframes ripple {
+    0% {
+        width: 0.01rem;
+        height: 0.01rem;
+        opacity: 0.1;
+    }
+    100% {
+        width: 1000rem;
+        height: 1000rem;
+        opacity: 0;
+    }
+}
 
 @keyframes ripple {
     0% {
@@ -60,6 +84,23 @@
 
 /*Animation 3*/
 
+@-webkit-keyframes fab-scale {
+    0% {
+        opacity: 1;
+        background-color: #C2185B;
+    }
+    5% {
+        background-color: #E91E63;
+        -webkit-box-shadow: 0 0 0 0 transparent;
+        box-shadow: 0 0 0 0 transparent;
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(500, 500);
+        transform: scale(500, 500);
+    }
+}
+
 @keyframes fab-scale {
     0% {
         opacity: 1;
@@ -67,10 +108,12 @@
     }
     5% {
         background-color: #E91E63;
+        -webkit-box-shadow: 0 0 0 0 transparent;
         box-shadow: 0 0 0 0 transparent;
     }
     100% {
         opacity: 1;
+        -webkit-transform: scale(500, 500);
         transform: scale(500, 500);
     }
 }
