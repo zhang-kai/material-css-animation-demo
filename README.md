@@ -3,7 +3,7 @@
 - Online demo: https://zhang-kai.github.io/material-css-animation-demo/index.html
 
 # Status
-- Beta. (Use modern browser to test it,please.)
+- Beta. (Use modern browsers to test it,please.)
 
 # License
 - MIT (https://opensource.org/licenses/mit-license.php)
